@@ -4,7 +4,7 @@
 I am deeply engrossed in the realm of web development, perpetually enhancing my skills and embracing new technologies.
 
 ### 📧 Reach Out:
-Email: [YourEmail@gmail.com](mailto:YourEmail@gmail.com)
+Email: aaaffansayed@gmail.com
 
 ### 💼 Current Endeavor:
 Mastering the MERN Stack to create robust and dynamic applications.
