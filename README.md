@@ -9,9 +9,6 @@ Email: aaaffansayed@gmail.com
 ### 💼 Current Endeavor:
 Mastering the MERN Stack to create robust and dynamic applications.
 
-### 🔍 Interesting Tidbit:
-I once coded for 11 hours straight, driven by sheer passion, determination, and plenty of soft drinks!
-
 ### 🎮 Beyond Development:
 When I'm not coding, I relish practicing Karate, participating in various sports, and exploring illustrations and digital art.
 
