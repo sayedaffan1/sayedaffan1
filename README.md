@@ -10,7 +10,7 @@ Feel free to reach out via email: [aaaffansayed@gmail.com](mailto:aaaffansayed@g
 Mastering Data Software Engineering (DSE) to build robust and scalable applications.
 
 ### 🎮 Beyond Development
-When I'm not coding, I enjoy practicing Karate, participating in various sports, and exploring illustrations and digital art.
+When I'm not coding, you can find me playing cricket and diving into gaming.
 
 ### 💻 Tech Stack
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
