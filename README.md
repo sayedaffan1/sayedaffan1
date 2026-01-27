@@ -21,5 +21,5 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Cyber security]<img width="512" height="618" alt="image" src="https://github.com/user-attachments/assets/2d021d2a-6fdf-40e2-a3ee-8df60eac1475" />
+![Cyber security]<img width="5" height="5" alt="image" src="https://github.com/user-attachments/assets/2d021d2a-6fdf-40e2-a3ee-8df60eac1475" />
 
