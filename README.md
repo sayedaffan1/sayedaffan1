@@ -98,3 +98,12 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 ![Cloud Security](https://img.shields.io/badge/Cloud_Security-4285F4?style=for-the-badge\&logo=cloudflare\&logoColor=white)
 ![Zero Trust](https://img.shields.io/badge/Zero_Trust-000000?style=for-the-badge\&logo=securityscorecard\&logoColor=white)
 ![IT Infrastructure](https://img.shields.io/badge/IT_Infrastructure-0078D4?style=for-the-badge\&logo=cisco\&logoColor=white)
+
+## 🔐 Security, Databases & System Tools
+
+![GPG](https://img.shields.io/badge/GPG-0093DD?style=for-the-badge\&logo=gnuprivacyguard\&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)
+![Mosquitto](https://img.shields.io/badge/Mosquitto-3C5280?style=for-the-badge\&logo=eclipsemosquitto\&logoColor=white)
+![iptables](https://img.shields.io/badge/iptables-333333?style=for-the-badge\&logo=linux\&logoColor=white)
+![ClamAV](https://img.shields.io/badge/ClamAV-CC0000?style=for-the-badge\&logo=clamav\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
