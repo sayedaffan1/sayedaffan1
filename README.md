@@ -44,3 +44,20 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Zscaler](https://img.shields.io/badge/Zscaler-0099CC?style=for-the-badge&logo=zscaler&logoColor=white)
+## 🌐 Networking & Infrastructure
+
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Computer Networking](https://img.shields.io/badge/Computer_Networking-0078D4?style=for-the-badge&logo=internetexplorer&logoColor=white)
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-005571?style=for-the-badge&logo=protocols&logoColor=white)
+![DNS](https://img.shields.io/badge/DNS-4285F4?style=for-the-badge&logo=cloudflare&logoColor=white)
+![DHCP](https://img.shields.io/badge/DHCP-0078D4?style=for-the-badge&logo=serverfault&logoColor=white)
+![VPN](https://img.shields.io/badge/VPN-4CAF50?style=for-the-badge&logo=openvpn&logoColor=white)
+![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)
+
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Network Security](https://img.shields.io/badge/Network_Security-DC143C?style=for-the-badge&logo=securityscorecard&logoColor=white)
+![Firewall](https://img.shields.io/badge/Firewall-FF4500?style=for-the-badge&logo=fortinet&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
