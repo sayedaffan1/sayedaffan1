@@ -1,0 +1,4 @@
+__pycache__/
+*.salt
+*.enc
+.env

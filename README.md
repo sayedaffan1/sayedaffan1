@@ -196,7 +196,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ Secure Remote Access Solution</h3>
+      <h3>🛡️ <a href="projects/Secure-Remote-Access-Solution">Secure Remote Access Solution</a></h3>
       <p>Hardened enterprise remote connectivity infrastructure utilizing OpenVPN, Multi-Factor Authentication (MFA), endpoint posture checks, and firewall segmentation rules.</p>
       <p>
         <img src="https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white" />
@@ -206,7 +206,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🔑 Secure Password Manager</h3>
+      <h3>🔑 <a href="projects/Secure-Password-Manager">Secure Password Manager</a></h3>
       <p>Robust encrypted credential management vault utilizing strong master key derivation (PBKDF2/Argon2), AES-256 GCM encryption, and local zero-knowledge storage.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
