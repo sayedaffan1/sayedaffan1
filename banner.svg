@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0c1527"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+
+    <linearGradient id="cyanBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00c6ff"/>
+    </linearGradient>
+
+    <linearGradient id="accentPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a18cd1"/>
+      <stop offset="100%" stop-color="#fbc2eb"/>
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7f00ff" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7f00ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur1"/>
+      <feGaussianBlur stdDeviation="12" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f2fe" stroke-width="0.75" stroke-opacity="0.08"/>
+      <circle cx="40" cy="40" r="1.5" fill="#00f2fe" fill-opacity="0.15"/>
+    </pattern>
+
+    <!-- Circuit Pattern Elements -->
+    <style>
+      @keyframes pulseSlow {
+        0%, 100% { opacity: 0.85; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.02); }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-100px); opacity: 0; }
+        50% { opacity: 0.6; }
+        100% { transform: translateY(320px); opacity: 0; }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -100; }
+      }
+      @keyframes rotateRing {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+
+      .pulse-shield {
+        transform-origin: 140px 160px;
+        animation: pulseSlow 4s ease-in-out infinite;
+      }
+      .rotate-hud {
+        transform-origin: 140px 160px;
+        animation: rotateRing 20s linear infinite;
+      }
+      .circuit-line {
+        stroke-dasharray: 8 6;
+        animation: dashMove 6s linear infinite;
+      }
+      .cursor-blink {
+        animation: blinkCursor 0.9s infinite;
+      }
+      .hud-float {
+        animation: floatSlow 5s ease-in-out infinite;
+      }
+      .title-text {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+        font-weight: 900;
+        letter-spacing: 4px;
+      }
+      .sub-text {
+        font-family: "SF Pro Display", "Segoe UI", "JetBrains Mono", Roboto, monospace;
+        font-weight: 600;
+        letter-spacing: 2.5px;
+      }
+      .mono-text {
+        font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="320" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Border Neon Frame -->
+  <rect width="996" height="316" x="2" y="2" rx="14" fill="none" stroke="#00f2fe" stroke-width="1.5" stroke-opacity="0.3"/>
+  <rect width="988" height="308" x="6" y="6" rx="12" fill="none" stroke="#7f00ff" stroke-width="0.8" stroke-opacity="0.2"/>
+
+  <!-- Cyber Grid Background -->
+  <rect width="1000" height="320" rx="16" fill="url(#cyberGrid)"/>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="140" cy="160" r="120" fill="#00f2fe" fill-opacity="0.08" filter="url(#neonGlow)"/>
+  <circle cx="850" cy="80" r="100" fill="#7f00ff" fill-opacity="0.08" filter="url(#neonGlow)"/>
+  <circle cx="600" cy="280" r="90" fill="#00c6ff" fill-opacity="0.05" filter="url(#neonGlow)"/>
+
+  <!-- Decorative Circuit Traces (Left & Background) -->
+  <g opacity="0.4" stroke="#00f2fe" stroke-width="1.5" fill="none">
+    <path d="M 0 60 L 90 60 L 120 90 L 120 120" class="circuit-line"/>
+    <circle cx="90" cy="60" r="3" fill="#00f2fe"/>
+    
+    <path d="M 0 260 L 80 260 L 110 230 L 110 200" class="circuit-line"/>
+    <circle cx="80" cy="260" r="3" fill="#00f2fe"/>
+
+    <path d="M 220 160 L 320 160 L 350 190 L 450 190" stroke-dasharray="4 4" opacity="0.3"/>
+    <circle cx="450" cy="190" r="2.5" fill="#00f2fe" opacity="0.6"/>
+
+    <path d="M 780 40 L 860 40 L 890 70 L 1000 70" class="circuit-line" stroke="#7f00ff"/>
+    <circle cx="860" cy="40" r="3" fill="#7f00ff"/>
+
+    <path d="M 750 280 L 840 280 L 880 240 L 1000 240" class="circuit-line" stroke="#00f2fe"/>
+    <circle cx="840" cy="280" r="3" fill="#00f2fe"/>
+  </g>
+
+  <!-- Left Side: Cybersecurity Shield Icon & Rotating HUD Rings -->
+  <g class="hud-float">
+    <!-- Rotating HUD Outer Ring -->
+    <g class="rotate-hud">
+      <circle cx="140" cy="160" r="75" fill="none" stroke="#00f2fe" stroke-width="1.2" stroke-dasharray="25 15 8 15" stroke-opacity="0.4"/>
+      <circle cx="140" cy="160" r="85" fill="none" stroke="#7f00ff" stroke-width="1" stroke-dasharray="10 30 50 20" stroke-opacity="0.3"/>
+      <circle cx="215" cy="160" r="3" fill="#00f2fe" opacity="0.8"/>
+      <circle cx="65" cy="160" r="3" fill="#7f00ff" opacity="0.8"/>
+    </g>
+
+    <!-- Shield Core -->
+    <g class="pulse-shield" filter="url(#neonGlow)">
+      <!-- Shield Outer Border -->
+      <path d="M 140 100 
+               L 190 120 
+               L 190 170 
+               C 190 205, 140 225, 140 225 
+               C 140 225, 90 205, 90 170 
+               L 90 120 Z" 
+            fill="url(#shieldGrad)" 
+            stroke="#00f2fe" 
+            stroke-width="2.5" 
+            fill-opacity="0.25"/>
+
+      <!-- Shield Inner Circuit Pattern -->
+      <path d="M 140 115 
+               L 175 130 
+               L 175 168 
+               C 175 194, 140 210, 140 210 
+               C 140 210, 105 194, 105 168 
+               L 105 130 Z" 
+            fill="none" 
+            stroke="#00f2fe" 
+            stroke-width="1" 
+            stroke-opacity="0.6"/>
+
+      <!-- Center Lock / Keyhole Icon -->
+      <!-- Lock Shackle -->
+      <path d="M 132 153 V 144 A 8 8 0 0 1 148 144 V 153" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Lock Body -->
+      <rect x="127" y="153" width="26" height="20" rx="4" fill="#00f2fe" filter="url(#softGlow)"/>
+      <!-- Keyhole -->
+      <circle cx="140" cy="161" r="2.5" fill="#070b14"/>
+      <path d="M 138.8 162 L 141.2 162 L 142 168 L 138 168 Z" fill="#070b14"/>
+    </g>
+  </g>
+
+  <!-- Top Status Badge / HUD telemetry -->
+  <g transform="translate(300, 48)">
+    <rect width="210" height="26" rx="6" fill="#00f2fe" fill-opacity="0.08" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="14" cy="13" r="4" fill="#00ff88" filter="url(#softGlow)"/>
+    <text x="26" y="17" fill="#00f2fe" font-size="11" font-weight="700" class="mono-text" letter-spacing="1.5">SYS.STATUS: SECURE</text>
+
+    <rect x="225" y="0" width="160" height="26" rx="6" fill="#7f00ff" fill-opacity="0.08" stroke="#7f00ff" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="239" cy="13" r="4" fill="#00f2fe" filter="url(#softGlow)"/>
+    <text x="251" y="17" fill="#c084fc" font-size="11" font-weight="700" class="mono-text" letter-spacing="1.5">NODE: ACTIVE</text>
+  </g>
+
+  <!-- Main Identity Header: AFFAN SAYED -->
+  <g transform="translate(300, 130)">
+    <!-- Primary Name Glow -->
+    <text x="0" y="0" fill="url(#cyanBlueGrad)" font-size="52" class="title-text" filter="url(#neonGlow)">
+      AFFAN SAYED
+    </text>
+    <text x="0" y="0" fill="#ffffff" font-size="52" class="title-text">
+      AFFAN SAYED
+    </text>
+  </g>
+
+  <!-- Subtitle / Domains Divider Line -->
+  <g transform="translate(300, 152)">
+    <line x1="0" y1="0" x2="630" y2="0" stroke="url(#lineGrad)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2.5" fill="#00f2fe"/>
+    <circle cx="315" cy="0" r="3" fill="#ffffff" filter="url(#softGlow)"/>
+  </g>
+
+  <!-- Core Domains / Subtitle -->
+  <g transform="translate(300, 185)">
+    <text x="0" y="0" fill="#38bdf8" font-size="14" class="sub-text" font-weight="700">
+      CYBERSECURITY
+    </text>
+    <text x="145" y="-1" fill="#7f00ff" font-size="14" font-weight="900">◆</text>
+    
+    <text x="168" y="0" fill="#818cf8" font-size="14" class="sub-text" font-weight="700">
+      NETWORK SECURITY
+    </text>
+    <text x="350" y="-1" fill="#7f00ff" font-size="14" font-weight="900">◆</text>
+
+    <text x="372" y="0" fill="#a78bfa" font-size="14" class="sub-text" font-weight="700">
+      IT INFRASTRUCTURE
+    </text>
+    <text x="565" y="-1" fill="#7f00ff" font-size="14" font-weight="900">◆</text>
+
+    <text x="585" y="0" fill="#34d399" font-size="14" class="sub-text" font-weight="700">
+      DEV
+    </text>
+  </g>
+
+  <!-- Pill Tech Badges at Bottom -->
+  <g transform="translate(300, 222)">
+    <!-- Badge 1: Ethical Hacking -->
+    <g transform="translate(0, 0)">
+      <rect width="130" height="28" rx="14" fill="#0f172a" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="16" cy="14" r="3.5" fill="#00f2fe"/>
+      <text x="27" y="18" fill="#e2e8f0" font-size="11.5" font-weight="600" class="sub-text">Ethical Hacking</text>
+    </g>
+
+    <!-- Badge 2: Zero Trust -->
+    <g transform="translate(142, 0)">
+      <rect width="105" height="28" rx="14" fill="#0f172a" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="16" cy="14" r="3.5" fill="#818cf8"/>
+      <text x="27" y="18" fill="#e2e8f0" font-size="11.5" font-weight="600" class="sub-text">Zero Trust</text>
+    </g>
+
+    <!-- Badge 3: SysAdmin -->
+    <g transform="translate(258, 0)">
+      <rect width="108" height="28" rx="14" fill="#0f172a" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="16" cy="14" r="3.5" fill="#c084fc"/>
+      <text x="27" y="18" fill="#e2e8f0" font-size="11.5" font-weight="600" class="sub-text">SysAdmin</text>
+    </g>
+
+    <!-- Badge 4: Python / Web -->
+    <g transform="translate(377, 0)">
+      <rect width="125" height="28" rx="14" fill="#0f172a" stroke="#34d399" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="16" cy="14" r="3.5" fill="#34d399"/>
+      <text x="27" y="18" fill="#e2e8f0" font-size="11.5" font-weight="600" class="sub-text">Python &amp; Web</text>
+    </g>
+
+    <!-- Badge 5: Cisco & VPN -->
+    <g transform="translate(513, 0)">
+      <rect width="112" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="16" cy="14" r="3.5" fill="#38bdf8"/>
+      <text x="27" y="18" fill="#e2e8f0" font-size="11.5" font-weight="600" class="sub-text">Cisco &amp; VPN</text>
+    </g>
+  </g>
+
+  <!-- Interactive Terminal Prompt Footer Line -->
+  <g transform="translate(300, 282)">
+    <text x="0" y="0" fill="#64748b" font-size="12" class="mono-text">root@affansayed:~# </text>
+    <text x="145" y="0" fill="#00f2fe" font-size="12" class="mono-text" font-weight="bold">./deploy_defense_protocol.sh --shield-mode=active</text>
+    <rect x="525" y="-10" width="7" height="13" fill="#00f2fe" class="cursor-blink"/>
+  </g>
+
+  <!-- Corner Tech Accents -->
+  <!-- Top Left Bracket -->
+  <path d="M 16 35 L 16 16 L 35 16" fill="none" stroke="#00f2fe" stroke-width="2.5"/>
+  <!-- Top Right Bracket -->
+  <path d="M 984 35 L 984 16 L 965 16" fill="none" stroke="#00f2fe" stroke-width="2.5"/>
+  <!-- Bottom Left Bracket -->
+  <path d="M 16 285 L 16 304 L 35 304" fill="none" stroke="#00f2fe" stroke-width="2.5"/>
+  <!-- Bottom Right Bracket -->
+  <path d="M 984 285 L 984 304 L 965 304" fill="none" stroke="#00f2fe" stroke-width="2.5"/>
+</svg>

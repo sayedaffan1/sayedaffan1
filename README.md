@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.svg" alt="Affan Sayed | Cybersecurity & IT Infrastructure" width="100%" />
+</p>
+
 # Hi there, I'm Affan! 👋
 
 ### 🛡️ Cybersecurity | 🌐 Networking | 💻 IT Infrastructure | 🌐 Web Development

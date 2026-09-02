@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="neonBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0817"/>
+      <stop offset="50%" stop-color="#120d2b"/>
+      <stop offset="100%" stop-color="#080711"/>
+    </linearGradient>
+
+    <!-- Glowing Text Gradient -->
+    <linearGradient id="synthwaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="40%" stop-color="#7928ca"/>
+      <stop offset="80%" stop-color="#00dfd8"/>
+      <stop offset="100%" stop-color="#0070f3"/>
+    </linearGradient>
+
+    <linearGradient id="cyanPurpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#9d4edd"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="intenseGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur1"/>
+      <feGaussianBlur stdDeviation="15" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="badgeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid lines & Animations -->
+    <style>
+      @keyframes floatAnim {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes laserPass {
+        0% { stroke-dashoffset: 800; }
+        100% { stroke-dashoffset: -800; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+      @keyframes textShimmer {
+        0% { stop-color: #00f2fe; }
+        50% { stop-color: #ff007f; }
+        100% { stop-color: #00f2fe; }
+      }
+
+      .floating {
+        animation: floatAnim 4s ease-in-out infinite;
+      }
+      .laser {
+        stroke-dasharray: 120 400;
+        animation: laserPass 5s linear infinite;
+      }
+      .pulsing-glow {
+        animation: pulseGlow 3s ease-in-out infinite;
+      }
+      .code-font {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      }
+      .main-font {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 800;
+        letter-spacing: 5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="300" rx="14" fill="url(#neonBg)"/>
+
+  <!-- Subtle Perspective Horizon Line Grid -->
+  <g opacity="0.15" stroke="#7928ca" stroke-width="1">
+    <line x1="0" y1="220" x2="1000" y2="220"/>
+    <line x1="0" y1="245" x2="1000" y2="245"/>
+    <line x1="0" y1="270" x2="1000" y2="270"/>
+    <line x1="0" y1="290" x2="1000" y2="290"/>
+
+    <line x1="500" y1="200" x2="0" y2="300"/>
+    <line x1="500" y1="200" x2="200" y2="300"/>
+    <line x1="500" y1="200" x2="380" y2="300"/>
+    <line x1="500" y1="200" x2="620" y2="300"/>
+    <line x1="500" y1="200" x2="800" y2="300"/>
+    <line x1="500" y1="200" x2="1000" y2="300"/>
+  </g>
+
+  <!-- Ambient Glowing Blobs -->
+  <circle cx="200" cy="100" r="130" fill="#7928ca" fill-opacity="0.12" filter="url(#intenseGlow)"/>
+  <circle cx="800" cy="150" r="140" fill="#00dfd8" fill-opacity="0.10" filter="url(#intenseGlow)"/>
+  <circle cx="500" cy="50" r="100" fill="#ff007f" fill-opacity="0.08" filter="url(#intenseGlow)"/>
+
+  <!-- Animated Laser Frame Borders -->
+  <rect x="3" y="3" width="994" height="294" rx="12" fill="none" stroke="#7928ca" stroke-width="1.2" opacity="0.4"/>
+  <rect x="3" y="3" width="994" height="294" rx="12" fill="none" stroke="#00dfd8" stroke-width="2" class="laser"/>
+
+  <!-- Left Code Bracket Accent -->
+  <g transform="translate(60, 100)" class="floating" opacity="0.6">
+    <text x="0" y="50" fill="#00dfd8" font-size="80" class="code-font" font-weight="200">&lt;</text>
+  </g>
+
+  <!-- Right Code Bracket Accent -->
+  <g transform="translate(900, 100)" class="floating" opacity="0.6">
+    <text x="0" y="50" fill="#ff007f" font-size="80" class="code-font" font-weight="200">/&gt;</text>
+  </g>
+
+  <!-- Center Content Area -->
+  <g transform="translate(500, 75)" text-anchor="middle">
+    <!-- Top Micro Tag -->
+    <rect x="-140" y="-35" width="280" height="26" rx="13" fill="#1e1338" stroke="#7928ca" stroke-width="1"/>
+    <circle cx="-118" cy="-22" r="3.5" fill="#00dfd8" filter="url(#badgeGlow)"/>
+    <text x="10" y="-18" fill="#e0e7ff" font-size="11.5" class="code-font" font-weight="600" letter-spacing="2">SECURITY &amp; INFRASTRUCTURE</text>
+
+    <!-- Main Name Title -->
+    <text x="0" y="45" fill="url(#synthwaveGrad)" font-size="54" class="main-font" filter="url(#intenseGlow)">
+      AFFAN SAYED
+    </text>
+    <text x="0" y="45" fill="#ffffff" font-size="54" class="main-font">
+      AFFAN SAYED
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="80" fill="#94a3b8" font-size="14.5" class="code-font" letter-spacing="3" font-weight="500">
+      ETHICAL HACKER <tspan fill="#ff007f">|</tspan> NETWORK SECURITY <tspan fill="#00dfd8">|</tspan> SYSTEM ADMIN
+    </text>
+
+    <!-- Glowing Tech Pill Stack -->
+    <g transform="translate(0, 120)">
+      <!-- Item 1 -->
+      <g transform="translate(-290, 0)">
+        <rect x="0" y="0" width="105" height="28" rx="8" fill="#181133" stroke="#ff007f" stroke-width="0.9" opacity="0.9"/>
+        <text x="52.5" y="18" fill="#ffb4e6" font-size="11.5" class="code-font" font-weight="600">🛡️ CyberSec</text>
+      </g>
+      <!-- Item 2 -->
+      <g transform="translate(-175, 0)">
+        <rect x="0" y="0" width="105" height="28" rx="8" fill="#181133" stroke="#7928ca" stroke-width="0.9" opacity="0.9"/>
+        <text x="52.5" y="18" fill="#d8b4fe" font-size="11.5" class="code-font" font-weight="600">🌐 Cisco</text>
+      </g>
+      <!-- Item 3 -->
+      <g transform="translate(-60, 0)">
+        <rect x="0" y="0" width="120" height="28" rx="8" fill="#181133" stroke="#00dfd8" stroke-width="0.9" opacity="0.9"/>
+        <text x="60" y="18" fill="#99f6e4" font-size="11.5" class="code-font" font-weight="600">🐍 Python/Dev</text>
+      </g>
+      <!-- Item 4 -->
+      <g transform="translate(70, 0)">
+        <rect x="0" y="0" width="115" height="28" rx="8" fill="#181133" stroke="#3b82f6" stroke-width="0.9" opacity="0.9"/>
+        <text x="57.5" y="18" fill="#93c5fd" font-size="11.5" class="code-font" font-weight="600">🐧 Linux/Sys</text>
+      </g>
+      <!-- Item 5 -->
+      <g transform="translate(195, 0)">
+        <rect x="0" y="0" width="100" height="28" rx="8" fill="#181133" stroke="#10b981" stroke-width="0.9" opacity="0.9"/>
+        <text x="50" y="18" fill="#a7f3d0" font-size="11.5" class="code-font" font-weight="600">🔒 Zero Trust</text>
+      </g>
+    </g>
+
+    <!-- Bottom Status Text -->
+    <g transform="translate(0, 180)">
+      <circle cx="-130" cy="-4" r="4" fill="#00dfd8" class="pulsing-glow"/>
+      <text x="0" y="0" fill="#64748b" font-size="12" class="code-font">
+        portfolio: <tspan fill="#00dfd8">affansayed.vercel.app</tspan> • github: <tspan fill="#e2e8f0">@sayedaffan1</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
