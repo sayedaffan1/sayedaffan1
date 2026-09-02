@@ -1,18 +1,24 @@
-## Hi there, I'm Affan! 👋
+# Hi there, I'm Affan! 👋
 
-### 🌐 Web Development Aficionado
-I am deeply engrossed in the realm of web development, perpetually enhancing my skills and embracing new technologies.
+### 🛡️ Cybersecurity | 🌐 Networking | 💻 IT Infrastructure | 🌐 Web Development
+
+I'm a cybersecurity and IT enthusiast with a strong interest in **network security, ethical hacking, system administration, IT infrastructure, and web development**. I enjoy building practical projects, exploring security tools, troubleshooting systems, and continuously expanding my technical skills.
+
+### 🌐 Portfolio
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_My_Website-7B2CBF?style=for-the-badge)](https://affansayed.vercel.app/)
 
 ### 📧 Reach Out
-Feel free to reach out via email: [aaaffansayed@gmail.com](mailto:aaaffansayed@gmail.com).
 
-### 💼 Current Endeavor
-Mastering Data Software Engineering (DSE) to build robust and scalable applications.
+Feel free to reach out via email: **[aaaffansayed@gmail.com](mailto:aaaffansayed@gmail.com)**
 
-### 🎮 Beyond Development
-When I'm not coding, you can find me playing cricket and diving into gaming.
+### 🎮 Beyond Tech
 
-## 💻 Tech Stack
+When I'm not working with technology, you can find me **gaming, playing cricket, exploring new technologies, and working on creative projects.**
+
+---
+
+# 💻 Tech Stack
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge\&logo=c\&logoColor=black)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white)
@@ -25,7 +31,7 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 
 ---
 
-## 🛡️ Cybersecurity & Ethical Hacking
+# 🛡️ Cybersecurity & Ethical Hacking
 
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-111111?style=for-the-badge\&logo=hackaday\&logoColor=white)
 ![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-7B2CBF?style=for-the-badge\&logo=kalilinux\&logoColor=white)
@@ -42,7 +48,7 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 
 ---
 
-## 🌐 Networking & Infrastructure
+# 🌐 Networking & Infrastructure
 
 ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge\&logo=cisco\&logoColor=white)
 ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-6A1B9A?style=for-the-badge\&logo=internet\&logoColor=white)
@@ -59,7 +65,7 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 
 ---
 
-## 💻 IT Support & Systems
+# 💻 IT Support & Systems
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge\&logo=windows\&logoColor=white)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-5C2D91?style=for-the-badge\&logo=windows\&logoColor=white)
@@ -73,7 +79,7 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 
 ---
 
-## ☁️ Cloud, Virtualization & Containers
+# ☁️ Cloud, Virtualization & Containers
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge\&logo=virtualbox\&logoColor=white)
@@ -84,7 +90,7 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 
 ---
 
-## 🗄️ Databases
+# 🗄️ Databases
 
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
@@ -92,7 +98,7 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 
 ---
 
-## 🔧 Development & Tools
+# 🔧 Development & Tools
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
@@ -103,10 +109,50 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 
 ---
 
-## 🔐 Security Concepts
+# 🔐 Security Concepts
 
 ![Zero Trust](https://img.shields.io/badge/Zero_Trust-111111?style=for-the-badge\&logo=securityscorecard\&logoColor=white)
 ![Endpoint Security](https://img.shields.io/badge/Endpoint_Security-C62828?style=for-the-badge\&logo=securityscorecard\&logoColor=white)
 ![Web Security](https://img.shields.io/badge/Web_Security-8E44AD?style=for-the-badge\&logo=owasp\&logoColor=white)
 ![System Administration](https://img.shields.io/badge/System_Administration-2E7D32?style=for-the-badge\&logo=linux\&logoColor=white)
 ![IT Infrastructure](https://img.shields.io/badge/IT_Infrastructure-E67E22?style=for-the-badge\&logo=cisco\&logoColor=white)
+
+---
+
+## 🚀 What I'm Currently Working On
+
+* 🛡️ Cybersecurity & Ethical Hacking
+* 🌐 Network Security & Infrastructure
+* 💻 IT Support & System Administration
+* 🐍 Python & Web Development
+* ☁️ Cloud & Virtualization
+* 🔐 Secure Infrastructure & Zero Trust
+
+---
+
+## 📌 Featured Projects
+
+🔹 **Secure Remote Access Solution**
+Secure remote access infrastructure using OpenVPN, MFA, endpoint security, and network controls.
+
+🔹 **Secure Password Manager**
+Security-focused password management environment using Vaultwarden, Docker, encryption, and access controls.
+
+🔹 **IoT Security Project**
+Exploring security architecture, authentication, encryption, network security, and monitoring for IoT environments.
+
+🔹 **Web Security & Burp Suite**
+Practical web security testing using Burp Suite, HTTP interception, and security testing methodologies.
+
+---
+
+## 🌐 Connect With Me
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-7B2CBF?style=for-the-badge\&logo=vercel\&logoColor=white)](https://affansayed.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:aaaffansayed@gmail.com)
+
+---
+
+### ⚡ *Learn. Build. Secure. Repeat.*
