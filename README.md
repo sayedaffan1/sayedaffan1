@@ -9,10 +9,20 @@
 </p>
 
 <p align="center">
-  <a href="https://affansayed.vercel.app/"><img src="https://img.shields.io/badge/%F0%9F%8C%90_Portfolio-affansayed.vercel.app-7B2CBF?style=for-the-badge" alt="Portfolio"/></a>
-  <a href="mailto:aaaffansayed@gmail.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7_Email-aaaffansayed%40gmail.com-0099FF?style=for-the-badge" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_Focus-CyberSec_%26_Infra-00C853?style=for-the-badge" alt="Focus"/>
-  <img src="https://komarev.com/ghpvc/?username=sayedaffan1&color=00f2fe&style=for-the-badge&label=SECURITY+VISITS" alt="Profile Visits" />
+  <a href="https://affansayed.vercel.app/"><img src="https://img.shields.io/badge/%F0%9F%8C%90_Portfolio-affansayed.vercel.app-7B2CBF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="mailto:aaaffansayed@gmail.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7_Email-aaaffansayed%40gmail.com-0078D6?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/></a>
+  <a href="https://linkedin.com/in/sayedaffan"><img src="https://img.shields.io/badge/%F0%9F%92%BC_LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <img src="https://komarev.com/ghpvc/?username=sayedaffan1&color=00f2fe&style=for-the-badge&label=SECURITY+CLEARANCE+VISITS" alt="Profile Visits" />
+</p>
+
+<p align="center">
+  <a href="#-system-diagnostic--security-specification"><code>[ 📟 Diagnostic ]</code></a> •
+  <a href="#-security-operations--github-telemetry"><code>[ 📊 Telemetry ]</code></a> •
+  <a href="#-cybersecurity-platforms--ctf-training"><code>[ 🚩 CTF & Training ]</code></a> •
+  <a href="#-tech-stack--toolkit"><code>[ 💻 Tech Stack ]</code></a> •
+  <a href="#-interactive-security-lab--architecture"><code>[ 🔬 HomeLab ]</code></a> •
+  <a href="#-featured-projects--codebases"><code>[ 🛡️ Projects ]</code></a> •
+  <a href="#-connect--collaborate"><code>[ 📫 Connect ]</code></a>
 </p>
 
 ---
@@ -56,6 +66,17 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sayedaffan1/sayedaffan1/output/github-contribution-grid-snake.svg">
     <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/sayedaffan1/sayedaffan1/output/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
+</p>
+
+---
+
+## 🚩 Cybersecurity Platforms & CTF Training
+
+<p align="center">
+  <a href="https://tryhackme.com"><img src="https://img.shields.io/badge/TryHackMe-Rank_Building-red?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" /></a>
+  <a href="https://hackthebox.com"><img src="https://img.shields.io/badge/HackTheBox-Member-green?style=for-the-badge&logo=hackthebox&logoColor=white" alt="HackTheBox" /></a>
+  <a href="https://portswigger.net/web-security"><img src="https://img.shields.io/badge/PortSwigger-Web_Security_Academy-orange?style=for-the-badge&logo=portswigger&logoColor=white" alt="PortSwigger" /></a>
+  <a href="https://owasp.org"><img src="https://img.shields.io/badge/OWASP-Top_10_Practitioner-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP" /></a>
 </p>
 
 ---
@@ -229,7 +250,7 @@ EOF
 
 ---
 
-<p align="center">
+<p align="center" id="-connect--collaborate">
   <b>Let's build and secure resilient systems together!</b><br/>
   Feel free to reach out for collaborations, discussions, or technical projects.
 </p>
@@ -237,4 +258,5 @@ EOF
 <p align="center">
   <a href="https://affansayed.vercel.app/"><img src="https://img.shields.io/badge/Website-Visit_Portfolio-7B2CBF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:aaaffansayed@gmail.com"><img src="https://img.shields.io/badge/Email-aaaffansayed%40gmail.com-0078D6?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/sayedaffan"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
