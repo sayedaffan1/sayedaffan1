@@ -12,22 +12,16 @@
   <a href="https://affansayed.vercel.app/"><img src="https://img.shields.io/badge/%F0%9F%8C%90_Portfolio-affansayed.vercel.app-7B2CBF?style=for-the-badge" alt="Portfolio"/></a>
   <a href="mailto:aaaffansayed@gmail.com"><img src="https://img.shields.io/badge/%F0%9F%93%A7_Email-aaaffansayed%40gmail.com-0099FF?style=for-the-badge" alt="Email"/></a>
   <img src="https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F_Focus-CyberSec_%26_Infra-00C853?style=for-the-badge" alt="Focus"/>
+  <img src="https://komarev.com/ghpvc/?username=sayedaffan1&color=00f2fe&style=for-the-badge&label=SECURITY+VISITS" alt="Profile Visits" />
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## 📟 System Diagnostic & Security Specification
 
-```yaml
-name: Affan Sayed
-role: Cybersecurity & IT Infrastructure Specialist
-interests: [Network Security, Ethical Hacking, System Administration, Cloud Infrastructure, Web Dev]
-focus: [Zero Trust Architecture, Threat Mitigation, Linux Hardening, Network Automation]
-currently_building: Practical security tools, remote access infrastructure, and web utilities
-hobbies: [Gaming, Cricket, Exploring Tech, Creative Problem Solving]
-```
-
-I'm a cybersecurity and IT enthusiast passionate about protecting networks, hardening operating systems, and architecting resilient infrastructure. I thrive on hands-on security experimentation, packet inspection, ethical hacking, and automating administrative workflows.
+<p align="center">
+  <img src="terminal-card.svg" alt="Affan Sayed Security Terminal" width="100%" />
+</p>
 
 ---
 
@@ -141,7 +135,42 @@ I'm a cybersecurity and IT enthusiast passionate about protecting networks, hard
 
 ---
 
-## 🛡️ Featured Projects
+## 🔬 Interactive Security Lab & Architecture
+
+<details>
+  <summary><b>🖥️ Click to View Virtualized Defense & HomeLab Architecture</b></summary>
+  <br/>
+  
+  ```yaml
+  HomeLab Infrastructure:
+    Hypervisors: [VMware Workstation Pro, Oracle VirtualBox]
+    Attack & Testing:
+      - Kali Linux (Penetration testing, OSINT, Metasploit, Burp Suite, Nmap)
+    Defensive & Enterprise Services:
+      - Windows Server 2022 (Domain Controller, Active Directory DS, DNS, DHCP, GPO)
+      - pfSense / OPNsense Firewall (VLAN segmentation, NAT, Snort IDS/IPS)
+    Network Architecture:
+      - Segmented Subnets: Management (10.0.10.0/24), Internal Servers (10.0.20.0/24), DMZ (10.0.30.0/24)
+      - Secure Remote Access: OpenVPN with certificate-based auth + 2FA
+    Telemetry & Monitoring:
+      - Packet Analysis: Wireshark SPAN port mirroring
+      - Hardening: Linux iptables, Windows Group Policies, CIS Benchmarks
+  ```
+</details>
+
+<details>
+  <summary><b>📜 Click to View Security & Certifications Roadmap</b></summary>
+  <br/>
+  
+  * 🎯 **CompTIA Security+ / Network+** — *Core Network & Enterprise Security Foundations*
+  * 🛡️ **eJPT (eLearnSecurity Junior Penetration Tester)** — *Hands-on Penetration Testing & Vulnerability Assessment*
+  * 🌐 **Cisco CCNA (200-301)** — *Enterprise Routing, Switching, IP Services & Automation*
+  * 🐍 **Python for Offensive & Defensive Security** — *Custom Socket Sniffers, Port Scanners, Automated Exploit Proof-of-Concepts*
+</details>
+
+---
+
+## 🛡️ Featured Projects & Codebases
 
 <table>
   <tr>
@@ -166,6 +195,24 @@ I'm a cybersecurity and IT enthusiast passionate about protecting networks, hard
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏋️ <a href="https://github.com/sayedaffan1/GYM-management-system">GYM Management System</a></h3>
+      <p>Full-featured management platform for membership tracking, subscription scheduling, and administration workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Database-MySQL-EF7C00?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 <a href="https://github.com/sayedaffan1/Portfolio">Personal Portfolio & Showcase</a></h3>
+      <p>Interactive web application showcasing projects, cyber tools, technical skills, and background.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+        <img src="https://img.shields.io/badge/Frontend-Modern_Web-00DFD8?style=flat-square" />
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -183,7 +230,7 @@ EOF
 ---
 
 <p align="center">
-  <b>Let's build secure and reliable systems together!</b><br/>
+  <b>Let's build and secure resilient systems together!</b><br/>
   Feel free to reach out for collaborations, discussions, or technical projects.
 </p>
 

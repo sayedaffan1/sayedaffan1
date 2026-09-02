@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 340" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#60efff"/>
+    </linearGradient>
+
+    <filter id="neonBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes pulseLight {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; }
+      }
+      .mono {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', Consolas, monospace;
+      }
+      .cursor {
+        animation: blink 1s infinite;
+      }
+      .neon-text {
+        animation: pulseLight 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect width="850" height="340" rx="12" fill="url(#termBg)"/>
+  
+  <!-- Outer Border Neon Glow -->
+  <rect width="846" height="336" x="2" y="2" rx="10" fill="none" stroke="#00f2fe" stroke-width="1.2" stroke-opacity="0.35"/>
+
+  <!-- Window Header Bar -->
+  <rect width="850" height="36" rx="12" fill="#0d1527"/>
+  <rect width="850" height="12" y="24" fill="#0d1527"/>
+  <line x1="0" y1="36" x2="850" y2="36" stroke="#00f2fe" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Window Control Buttons (Mac / Terminal Style) -->
+  <circle cx="24" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="18" r="6" fill="#27c93f"/>
+
+  <!-- Terminal Title -->
+  <text x="425" y="23" fill="#94a3b8" font-size="12" font-weight="600" class="mono" text-anchor="middle">
+    defense@sayedaffan1: ~ (neofetch --security-profile)
+  </text>
+
+  <!-- Terminal Body Content -->
+  <!-- Left Side: ASCII Cyber Shield Emblem -->
+  <g transform="translate(30, 60)" fill="#00f2fe" class="mono" font-size="11.5" font-weight="bold" opacity="0.95" filter="url(#neonBlur)">
+    <text x="0" y="20">      .---.      </text>
+    <text x="0" y="36">     /     \     </text>
+    <text x="0" y="52">    | () () |    </text>
+    <text x="0" y="68">     \  ^  /     </text>
+    <text x="0" y="84">      |||||      </text>
+    <text x="0" y="100">   .=========.   </text>
+    <text x="0" y="116">  /  [SYS-OK] \  </text>
+    <text x="0" y="132"> |  CYBER-SEC  | </text>
+    <text x="0" y="148"> |  AFFAN.DEV  | </text>
+    <text x="0" y="164">  \ ZERO-TRUST/  </text>
+    <text x="0" y="180">   '========='   </text>
+    <text x="0" y="196">      \   /      </text>
+    <text x="0" y="212">       \ /       </text>
+    <text x="0" y="228">        V        </text>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="225" y1="52" x2="225" y2="315" stroke="#00f2fe" stroke-opacity="0.15" stroke-dasharray="4 4"/>
+
+  <!-- Right Side: Neofetch System Information Matrix -->
+  <g transform="translate(250, 65)" class="mono" font-size="13">
+    <!-- User Prompt Header -->
+    <text x="0" y="15" fill="#00f2fe" font-weight="bold">affan</text>
+    <text x="46" y="15" fill="#94a3b8">@</text>
+    <text x="56" y="15" fill="#c084fc" font-weight="bold">cyber-workstation</text>
+    <text x="210" y="15" fill="#64748b">---------------------------------</text>
+
+    <!-- Info Lines -->
+    <g transform="translate(0, 42)" font-size="12.5">
+      <!-- Line 1: OS -->
+      <text x="0" y="0" fill="#38bdf8" font-weight="bold">OS:</text>
+      <text x="125" y="0" fill="#e2e8f0">Kali Linux / Windows Server 2022 / Arch</text>
+
+      <!-- Line 2: Focus -->
+      <text x="0" y="22" fill="#38bdf8" font-weight="bold">Core Domains:</text>
+      <text x="125" y="22" fill="#34d399">Cybersecurity • Ethical Hacking • Network Sec</text>
+
+      <!-- Line 3: System Admin -->
+      <text x="0" y="44" fill="#38bdf8" font-weight="bold">Infrastructure:</text>
+      <text x="125" y="44" fill="#e2e8f0">Active Directory, DNS, DHCP, Cisco, pfSense</text>
+
+      <!-- Line 4: Security Tools -->
+      <text x="0" y="66" fill="#38bdf8" font-weight="bold">Arsenal:</text>
+      <text x="125" y="66" fill="#a78bfa">Wireshark, Metasploit, Burp Suite, Nmap, OpenVPN</text>
+
+      <!-- Line 5: Dev Stack -->
+      <text x="0" y="88" fill="#38bdf8" font-weight="bold">Development:</text>
+      <text x="125" y="88" fill="#e2e8f0">Python, C/C++, JavaScript, Django, Shell</text>
+
+      <!-- Line 6: Defense Rule -->
+      <text x="0" y="110" fill="#38bdf8" font-weight="bold">Architecture:</text>
+      <text x="125" y="110" fill="#00f2fe">Zero Trust • Endpoint Hardening • Least Privilege</text>
+
+      <!-- Line 7: Uptime -->
+      <text x="0" y="132" fill="#38bdf8" font-weight="bold">Status:</text>
+      <text x="125" y="132" fill="#00ff88">● ONLINE</text>
+      <text x="195" y="132" fill="#94a3b8">(Building &amp; Securing Scalable Systems)</text>
+
+      <!-- Line 8: Terminal Prompt -->
+      <text x="0" y="162" fill="#64748b">affan@cyber:~$</text>
+      <text x="125" y="162" fill="#00f2fe" font-weight="bold">ready_for_collaboration --role="Security / IT / Dev"</text>
+      <rect x="525" y="151" width="7" height="13" fill="#00f2fe" class="cursor"/>
+    </g>
+
+    <!-- Color Palette Blocks at Bottom Right -->
+    <g transform="translate(0, 240)">
+      <rect x="0" y="0" width="22" height="12" rx="2" fill="#070b14"/>
+      <rect x="26" y="0" width="22" height="12" rx="2" fill="#ef4444"/>
+      <rect x="52" y="0" width="22" height="12" rx="2" fill="#22c55e"/>
+      <rect x="78" y="0" width="22" height="12" rx="2" fill="#eab308"/>
+      <rect x="104" y="0" width="22" height="12" rx="2" fill="#3b82f6"/>
+      <rect x="130" y="0" width="22" height="12" rx="2" fill="#a855f7"/>
+      <rect x="156" y="0" width="22" height="12" rx="2" fill="#06b6d4"/>
+      <rect x="182" y="0" width="22" height="12" rx="2" fill="#f8fafc"/>
+    </g>
+  </g>
+</svg>
