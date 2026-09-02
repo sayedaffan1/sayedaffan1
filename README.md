@@ -58,6 +58,3 @@ When I'm not coding, you can find me playing cricket and diving into gaming.
 ![Network Security](https://img.shields.io/badge/Network_Security-DC143C?style=for-the-badge&logo=securityscorecard&logoColor=white)
 ![Firewall](https://img.shields.io/badge/Firewall-FF4500?style=for-the-badge&logo=fortinet&logoColor=white)
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
